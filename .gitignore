@@ -14,7 +14,6 @@ $RECYCLE.BIN/
 
 # Win transifex client
 tx.exe
-.tx
 
 #############
 ## Mac detritus

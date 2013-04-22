@@ -34,7 +34,7 @@ class pkg_projectfork_languagesInstallerScript {
 			// Check the installed version of PF4 and the translation, give hints and tipps to do everything right!
 		
 		// Get list of languages to be installed. Only installs languages that are found in your system.
-		$source = $parent->getParent()->getPath('source').'/language';
+		$source = $parent->getParent()->getPath('source').'/languages';
 		$languages = JFactory::getLanguage()->getKnownLanguages();
 		
 		$files = $parent->manifest->files;

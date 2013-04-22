@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Updatefiles hosted on GitHub 
+-->
+<updates>
+	<update>
+		<name>Projectfork 4 Languages</name>
+		<description>Projectfork 4 Language Package Installer</description>
+		<element>pkg_projectfork_languages</element>
+		<type>package</type>
+		<version>4.0.0.0</version>
+		<infourl title="Projectfork 4">https://github.com/projectfork/Translations/wiki</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://raw.github.com/projectfork/Translations/master/archive/lang_pf4_4.0.0.0.zip</downloadurl>
+		</downloads>
+		<maintainer>Projectfork Translation Team</maintainer>
+		<maintainerurl>http://transifex.com/projects/p/projectfork-languages</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="" />
+		<client_id>0</client_id>
+		<folder></folder>
+	</update>
+</updates>

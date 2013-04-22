@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="2.5" method="upgrade">
+	<name>Projectfork Language - nl-NL</name>
+	<author>Projectfork Translation Team</author>
+	<creationDate>April 2013</creationDate>
+	<copyright>(C) 2006-2013 Tobias Kuhn. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@projectfork.net</authorEmail>
+	<authorUrl>www.projectfork.net</authorUrl>
+	<version>4.0.0</version>
+	<description>The nl-NL language pack for Projectfork 4, a Project Management extension for Joomla!</description>
+	
+	<fileset>
+		<files folder="admin" target="administrator/language/nl-NL">
+			<filename>nl-NL.com_pfcomments.ini</filename>
+			<filename>nl-NL.com_pfcomments.sys.ini</filename>
+			<filename>nl-NL.com_pfforum.ini</filename>
+			<filename>nl-NL.com_pfforum.sys.ini</filename>
+			<filename>nl-NL.com_pfmilestones.ini</filename>
+			<filename>nl-NL.com_pfmilestones.sys.ini</filename>
+			<filename>nl-NL.com_pfprojects.ini</filename>
+			<filename>nl-NL.com_pfprojects.sys.ini</filename>
+			<filename>nl-NL.com_pfrepo.ini</filename>
+			<filename>nl-NL.com_pfrepo.sys.ini</filename>
+			<filename>nl-NL.com_pftasks.ini</filename>
+			<filename>nl-NL.com_pftasks.sys.ini</filename>
+			<filename>nl-NL.com_pftime.ini</filename>
+			<filename>nl-NL.com_pftime.sys.ini</filename>
+			<filename>nl-NL.com_pfusers.ini</filename>
+			<filename>nl-NL.com_pfusers.sys.ini</filename>
+			<filename>nl-NL.com_projectfork.ini</filename>
+			<filename>nl-NL.com_projectfork.sys.ini</filename>
+			<filename>nl-NL.plg_content_pfcomments.ini</filename>
+			<filename>nl-NL.plg_content_pfcomments.sys.ini</filename>
+			<filename>nl-NL.plg_content_pfnotifications.ini</filename>
+			<filename>nl-NL.plg_content_pfnotifications.sys.ini</filename>
+		</files>
+		
+		<files folder="site" target="language/nl-NL">
+			<filename>nl-NL.com_projectfork.ini</filename>
+			<filename>nl-NL.mod_pf_dash_buttons.ini</filename>
+			<filename>nl-NL.mod_pf_dash_buttons.sys.ini</filename>
+			<filename>nl-NL.mod_pf_tasks.ini</filename>
+			<filename>nl-NL.mod_pf_tasks.sys.ini</filename>
+		</files>
+	</fileset>
+</extension>

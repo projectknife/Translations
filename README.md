@@ -1,6 +1,7 @@
-# [Projectfork 4 Translations](https://projectfork.net)
-Projectfork - a Joomla Project Management Software with milestones, tasks, files, calendar, discussions, timesheets, & so much more...
+# [Projectfork](https://projectfork.net) Translations
+Projectfork - a Project Management Software for Joomla 2.5+ and 3.0+
 
+*Please note: This language pack is for Projectfork 4 only!*
 
 ## Quick start
 * Projectfork Language Pack - **[download the latest release](http://projectfork.net/downloads)**

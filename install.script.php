@@ -33,31 +33,8 @@ class pkg_projectfork_languagesInstallerScript {
 		// Do not install if Projectfork 4 doesn't exist.
 		$table = JTable::getInstance('extension');
 		$id = $table->find(array('type'=>'component', 'element'=>'com_projectfork'));
-		if($id) {
+		if(!$id) {
 			$app->enqueueMessage(sprintf(JText::_('PKG_PROJECTFORK_LANGUAGES_PFNOTINSTALLED'), '4.x'), 'error');
-			
-			$nopf_installed = '
-				<div style="display: inline-block;">
-					<div style="background: url(https://projectfork.net/templates/hydra/img/logo.png) no-repeat 50% 50% #698C00; height: 63px; width: 205px; border: 6px solid #567300; padding: 10px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; float: left;"></div>
-					<div onclick="PFInstaller()" style="background-color: #698C00; cursor: pointer; height: 63px; border-width: 6px; border-style: solid; border-color: #567300; border-left: 0px; padding: 10px; color: white; font-size: 25px; line-height: 60px; float: left; text-indent: 0; text-align: center;">' . JText::_('PKG_PROJECTFORK_LANGUAGES_INSTALLNOW') . '</div>
-					<div onclick="PFDownload()" style="background-color: #42A9CA; cursor: pointer; height: 63px; border: 6px solid #2E88A5; padding: 10px; color: white; font-size: 25px; line-height: 60px; float: left; text-indent: 0; text-align: center;">' . JText::_('PKG_PROJECTFORK_LANGUAGES_DOWNLOAD_COMMUNITY') . '</div>
-					<div onclick="PFOrderPro()" style="background-color: #F7A700; cursor: pointer; height: 63px; border: 6px solid #BE8100; padding: 10px; color: white; font-size: 25px; line-height: 60px; float: left; text-indent: 0; text-align: center; border-top-right-radius: 5px; border-bottom-right-radius: 5px;">' . JText::_('PKG_PROJECTFORK_LANGUAGES_ORDER_PRO') . '</div>
-				</div>
-				<script type="text/javascript">
-					PFInstaller = function(pressbutton) {
-						var form = document.getElementById("adminForm");
-						form.install_url.value = "https://projectfork.net/downloads/projectfork-4/projectfork-4-4-0-0/pkgprojectfork4-0-0-zip?format=raw";
-						Joomla.submitbutton4();
-					}					
-					PFDownload = function(pressbutton) {
-						window.open("https://projectfork.net","_blank");
-					}					
-					PFOrderPro = function(pressbutton) {
-						window.open("https://projectfork.net/pro","_blank");
-					}					
-				</script>
-			';
-			$app->enqueueMessage($nopf_installed, 'notice');
 			return false;
 		}
 		
@@ -66,7 +43,7 @@ class pkg_projectfork_languagesInstallerScript {
 		$languages = JFactory::getLanguage()->getKnownLanguages();
 		
 		$files = $parent->manifest->files;
-		$installed_langs_html = '<div style="inline-block;"><ul>';
+		$installed_langs_html = '<ul>';
 		
 		foreach ($languages as $language) {
 			$search = JFolder::folders($source, $language['tag']); // no .zip files use "folders" instead
@@ -82,20 +59,15 @@ class pkg_projectfork_languagesInstallerScript {
 			}
 			$installed_langs_html .= '</li>';
 		}
-		$installed_langs_html .= '</ul></div>';
+		$installed_langs_html .= '</ul>';
 		
 		if (empty($files)) {
-			// No packages to install: replace failure message with something that's more descriptive.
+			// No packages to install
 			$app->enqueueMessage(sprintf(JText::_('PKG_PROJECTFORK_LANGUAGES_ENGLISH_ONLY')), 'notice');
 			return false;
 		} else {
-			// Override XML-DIV-NOPF-Installer-Placeholder if PF is installed
-			$success_html_output = '<div style="display: inline-block; margin-bottom: 25px;">';
-			$success_html_output .= '<div style="background: url(https://projectfork.net/templates/hydra/img/logo.png) no-repeat 50% 50% #698C00; height: 63px; width: 205px; border: 6px solid #567300; padding: 10px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; float: left;"></div>';
-			$success_html_output .= '<div style="background-color: #698C00; height: 63px; border-width: 6px; border-style: solid; border-color: #567300; border-left: 0px; padding: 10px; color: white; font-size: 25px; line-height: 60px; float: left; text-indent: 0; text-align: center; border-top-right-radius: 5px; border-bottom-right-radius: 5px;">' . JText::_('PKG_PROJECTFORK_LANGUAGES_INSTALLED_DETECTED') . '</div>';
-			$success_html_output .= '</div>';
-			echo $success_html_output;
-			echo $installed_langs_html;
+			// Package was installation successfull with detected languages
+			echo JText::_('PKG_PROJECTFORK_LANGUAGES_INSTALLED_DETECTED_SUCCESS') . $installed_langs_html;
 		}
 		
 		return true;

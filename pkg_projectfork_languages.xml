@@ -10,7 +10,7 @@
 	<version>4.0.0</version>
 	<updateable>fullupdate</updateable>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-	<description>Language Pack for Projectfork 4, a Project Management extension for Joomla!</description>
+	<description></description>
 	
 	<scriptfile>install.script.php</scriptfile>
 	<files folder="languages">

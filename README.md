@@ -1,10 +1,10 @@
 # [Projectfork](https://projectfork.net) Translations
 Projectfork - a Project Management Software for Joomla 2.5+ and 3.0+
 
-*Please note: This language pack is for Projectfork 4 only!*
+* **Please note:** This Language Pack is for Projectfork 4 only!*
 
 ## Quick start
-* Projectfork Language Pack - **[download the latest release](http://projectfork.net/downloads)**
+Projectfork Language Pack - *[download the latest release](http://projectfork.net/downloads)*
 
 #### Stay up-to-date
 The *Projectfork Language Pack* use the Joomla!-Updater
@@ -17,11 +17,11 @@ Have an issue related tho the *Projectfork Language Pack*? [Please open a new is
 ## Contributing
 Anyone and everyone is welcome to contribute. Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md)
 
-#### Language Package Installer
+#### Language Pack Installer
 Please submit all [pull requests](CONTRIBUTING.md#pull-requests) against this `master` branch.
 
 #### Help translate Projectfork
-You want to **be a part of the Projectfork Translation Team**, please have a look at the wiki => [Getting Involved](wiki/Getting-involved).
+You want to **be a part of the Projectfork Translation Team**, please have a look at: [Getting Involved](wiki/Getting-involved)
 
 #### Thanks!
 

@@ -34,7 +34,7 @@ Guidelines for bug reports:
    reported.
 
 3. **Check if the issue has been fixed** &mdash; try to reproduce it using the
-   latest `master` or development branch in the repository.
+   latest `master` branch in the repository.
 
 4. *(Projectfork Language Pack Installer only)* **Isolate the problem** &mdash; ideally
    create a [reduced test case](http://css-tricks.com/6263-reduced-test-cases/) and a
@@ -76,6 +76,9 @@ help. They should remain focused in scope and avoid containing unrelated commits
 implementing new language, refactoring code, porting to a different language),
 otherwise you risk spending a lot of time working on something that the
 project's developers might not want to merge into the project.
+
+If you want to **be a part of the Projectfork Translation Team**, please have a look at
+the wiki => [Getting Involved](wiki/Getting-involved).
 
 Please adhere to the coding conventions used throughout a project (indentation,
 accurate comments, etc.) and any other requirements (such as test coverage).

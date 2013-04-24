@@ -6,7 +6,7 @@ Projectfork - a Joomla Project Management Software with milestones, tasks, files
 * Projectfork Language Pack - **[download the latest release](http://projectfork.net/downloads)**
 
 #### Stay up-to-date
-*The Projectfork Language Pack* use the Joomla!-Updater
+The *Projectfork Language Pack* use the Joomla!-Updater
 
 
 ## Bug tracker
@@ -19,6 +19,11 @@ Anyone and everyone is welcome to contribute. Please take a moment to review the
 #### Language Package Installer
 Please submit all [pull requests](CONTRIBUTING.md#pull-requests) against this `master` branch.
 
+#### Help translate Projectfork
+You want to **be a part of the Projectfork Translation Team**, please have a look at the wiki => [Getting Involved](wiki/Getting-involved).
+
+#### Thanks!
+
 
 ## Community
 Keep track of development and community news.
@@ -27,11 +32,6 @@ Keep track of development and community news.
 * Like [Projectfork on Facebook](http://facebook.com/projectfork).
 * Subscribe to the [Projectfork Channel on Youtube](http://youtube.com/user/projectfork).
 * Read and subscribe to the [The Official Projectfork Blog](https://projectfork.net/blog).
-
-
-
-#### Thanks!
-
 
 
 ## Copyright and license

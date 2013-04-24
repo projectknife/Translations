@@ -4,10 +4,21 @@ Projectfork - a Project Management Software for Joomla 2.5+ and 3.0+
 * **Please note:** This Language Pack is for Projectfork 4 only!*
 
 ## Quick start
+This file contains all the languages which are currently available for Projectfork 4.0.0 for Joomla! 2.5 and 3.0.
+
+We recommend that you install the most recent language every time you have upgraded Projectfork (If you installed the "Language Pack", you could use the update function from Joomla!).
+
+
 Projectfork Language Pack - *[download the latest release](http://projectfork.net/downloads)*
 
-#### Stay up-to-date
-The *Projectfork Language Pack* use the Joomla!-Updater
+#### Installing languages in Joomla! 2.5+ and 3.0+
+Just install this package by using Joomla installer. If you cannot install the package because of 2MB upload limit, you can either install the package from URL or make the file smaller by removing a few languages you do not need.
+
+Installer will detect which languages have been installed into your system. It will install or update only existing languages, so if you add new languages after installing this package, you will need to install the "Language Pack" again.
+
+Every language will be installed separately to allow you to uninstall them one by one if needed. You can find installed languages by going to "Extension Manager: Manage" and filtering results by "Projectfork Language".
+
+Additionally the "Extension Manager" will have a package called "Projectfork Language Pack Installer". Uninstalling this package will also uninstall all the languages that were added during installation. The source language *en-GB* will still exists.
 
 
 ## Bug tracker
@@ -15,13 +26,16 @@ Have an issue related tho the *Projectfork Language Pack*? [Please open a new is
 
 
 ## Contributing
+Languages in this package may missing translations. To see the status of your language, please visit our Transifex status page:
+https://www.transifex.com/projects/p/projectfork-languages
+
 Anyone and everyone is welcome to contribute. Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md)
 
 #### Language Pack Installer
 Please submit all [pull requests](CONTRIBUTING.md#pull-requests) against this `master` branch.
 
 #### Help translate Projectfork
-You want to **be a part of the Projectfork Translation Team**, please have a look at: [Getting Involved](https://github.com/projectfork/Translations/wiki/Getting-involved)
+If you want to help us to **translate your language**, please have a look at: [Getting Involved](https://github.com/projectfork/Translations/wiki/Getting-involved)
 
 #### Thanks!
 

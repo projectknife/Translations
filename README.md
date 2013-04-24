@@ -21,7 +21,7 @@ Anyone and everyone is welcome to contribute. Please take a moment to review the
 Please submit all [pull requests](CONTRIBUTING.md#pull-requests) against this `master` branch.
 
 #### Help translate Projectfork
-You want to **be a part of the Projectfork Translation Team**, please have a look at: [Getting Involved](/projectfork/Translations/wiki/Getting-involved)
+You want to **be a part of the Projectfork Translation Team**, please have a look at: [Getting Involved](https://github.com/projectfork/Translations/wiki/Getting-involved)
 
 #### Thanks!
 
@@ -36,7 +36,7 @@ Keep track of development and community news.
 
 
 ## Copyright and license
-(c) 2012 - 2013 by the [Projectfork Translation Team](/projectfork/Translations/wiki/Translation-team). All rights reserved.
+(c) 2012 - 2013 by the [Projectfork Translation Team](https://github.com/projectfork/Translations/wiki/Translation-team). All rights reserved.
 
 Licensed under the GNU General Public License, Version 2 (the "License");
 you may not use this work except in compliance with the License.

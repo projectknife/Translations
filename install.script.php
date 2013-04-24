@@ -3,7 +3,7 @@
  * @package Projectfork
  * @subpackage Projectfork.Translations.Installer
  *
- * @copyright (C) 2006 - 2013 Projectfork Translation Team. All rights reserved.
+ * @copyright (C) 2012 - 2013 Projectfork Translation Team. All rights reserved.
  * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
  * @link http://www.projectfork.net
  **/
@@ -53,7 +53,7 @@ class pkg_projectfork_languagesInstallerScript {
 			$file = $files->addChild('file', array_pop($search));
 			$file->addAttribute('type', 'file');
 			$file->addAttribute('id', $this->name . '_' . $language['tag']);
-			$installed_langs_html .= '<li>' . sprintf('<b>%s - %s</b>', $language['tag'], $language['name']);
+			$installed_langs_html .= '<li>' . sprintf('<b>%s</b> - %s', $language['tag'], $language['name']);
 			if(in_array($language['tag'], $this->uncomplete_lang)) {
 				$installed_langs_html .= ' ... <span style="color: darkorange;">(' . sprintf(JText::_('PKG_PROJECTFORK_LANGUAGES_NOTFULL_TRANSLATED'), '<a href="https://github.com/projectfork/Translations/wiki" target="_blank">Projectfork Translations Team</a>') . ')';
 			}

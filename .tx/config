@@ -176,3 +176,9 @@ file_filter = languages\<lang>\site\<lang>.mod_pf_tasks.sys.ini
 source_file = ..\Projectfork\source\modules\mod_pf_tasks\language\en-GB\en-GB.mod_pf_tasks.sys.ini
 source_lang = en_GB
 minimum_perc = 80
+
+[projectfork-languages.installer-pkg_projectfork_languages]
+file_filter = installer\language\<lang>\<lang>.pkg_projectfork_languages.ini
+source_file = installer\language\en-GB\en-GB.pkg_projectfork_languages.ini
+source_lang = en_GB
+minimum_perc = 80

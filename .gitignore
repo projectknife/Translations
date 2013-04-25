@@ -21,3 +21,17 @@ tx.exe
 
 # Mac crap
 .DS_Store
+
+
+#############
+## uncomplete translations
+#############
+
+languages/zh-TW/
+languages/da-DK/
+languages/cs-CZ/
+languages/ru-PO/
+languages/fa-IR/
+languages/pt_PT/
+languages/uk-UA/
+languages/fi-FI/

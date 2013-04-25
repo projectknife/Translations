@@ -27,11 +27,11 @@ tx.exe
 ## uncomplete translations
 #############
 
-languages/zh-TW/
-languages/da-DK/
-languages/cs-CZ/
-languages/ru-PO/
-languages/fa-IR/
-languages/pt_PT/
-languages/uk-UA/
-languages/fi-FI/
+source/languages/zh-TW/
+source/languages/da-DK/
+source/languages/cs-CZ/
+source/languages/ru-PO/
+source/languages/fa-IR/
+source/languages/pt_PT/
+source/languages/uk-UA/
+source/languages/fi-FI/

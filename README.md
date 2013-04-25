@@ -1,7 +1,5 @@
 # [Projectfork](https://projectfork.net) Translations
-Projectfork - a Project Management Software for Joomla 2.5+ and 3.0+
-
-* **Please note:** This Language Pack is for Projectfork 4 only!*
+_The official Language Pack for Projectfork 4 - A Project Management Extension for Joomla!_
 
 ## Quick start
 This file contains all the languages which are currently available for Projectfork 4.0.0 for Joomla! 2.5 and 3.0.
@@ -9,7 +7,7 @@ This file contains all the languages which are currently available for Projectfo
 We recommend that you install the most recent language every time you have upgraded Projectfork (If you installed the "Language Pack", you could use the update function from Joomla!).
 
 
-Projectfork Language Pack - *[download the latest release](http://projectfork.net/downloads)*
+Projectfork Language Pack - *~~[download the latest release](http://projectfork.net/downloads)~~*
 
 #### Installing languages in Joomla! 2.5+ and 3.0+
 Just install this package by using Joomla installer. If you cannot install the package because of 2MB upload limit, you can either install the package from URL or make the file smaller by removing a few languages you do not need.
@@ -22,7 +20,7 @@ Additionally the "Extension Manager" will have a package called "Projectfork Lan
 
 
 ## Bug tracker
-Have an issue related tho the *Projectfork Language Pack*? [Please open a new issue](https://github.com/projectfork/Translations/issues). Before opening any issue, please search for existing issues and read the [Issue Guidelines](CONTRIBUTING.md#bugs).
+Have an issue related tho the *Projectfork Language Pack*? [Please open a new issue](https://github.com/projectfork/Translations/issues). Before opening an issue, please search for existing issues and read the [Issue Guidelines](CONTRIBUTING.md#bugs).
 
 
 ## Contributing
@@ -31,7 +29,7 @@ Languages in this package may missing translations. To see the status of your la
 Anyone and everyone is welcome to contribute. Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md)
 
 #### Language Pack Installer
-Please submit all [pull requests](CONTRIBUTING.md#pull-requests) against this `master` branch.
+Please submit [pull requests](CONTRIBUTING.md#pull-requests) against this `master` branch.
 
 #### Help translate Projectfork
 If you want to help us to **translate your language**, please have a look at: [Getting Involved](https://github.com/projectfork/Translations/wiki/Getting-involved)
@@ -49,17 +47,4 @@ Keep track of development and community news.
 * Read and subscribe to the [The Official Projectfork Blog](https://projectfork.net/blog).
 
 
-## Copyright and license
-(c) 2012 - 2013 by the [Projectfork Translation Team](https://github.com/projectfork/Translations/wiki/Translation-team). All rights reserved.
-
-Licensed under the GNU General Public License, Version 2 (the "License");
-you may not use this work except in compliance with the License.
-You may obtain a copy of the License in the LICENSE file, or at:
-
-  [http://www.gnu.org/licenses/gpl-2.0](http://www.gnu.org/licenses/gpl-2.0)
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+<small>(C) 2012 - 2013 by the [Projectfork Translation Team](https://github.com/projectfork/Translations/wiki/Translation-team). All rights reserved.</small>

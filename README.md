@@ -26,8 +26,7 @@ Have an issue related tho the *Projectfork Language Pack*? [Please open a new is
 
 
 ## Contributing
-Languages in this package may missing translations. To see the status of your language, please visit our Transifex status page:
-https://www.transifex.com/projects/p/projectfork-languages
+Languages in this package may missing translations. To see the status of your language, please visit our [Transifex status page](https://www.transifex.com/projects/p/projectfork-languages)
 
 Anyone and everyone is welcome to contribute. Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md)
 
@@ -43,6 +42,7 @@ If you want to help us to **translate your language**, please have a look at: [G
 ## Community
 Keep track of development and community news.
 
+* Announcements [Projectfork Translation Team](https://www.transifex.com/projects/p/projectfork-languages/announcements) _(and the announcements for every single language)_
 * Follow [@projectfork on Twitter](http://twitter.com/projectfork).
 * Like [Projectfork on Facebook](http://facebook.com/projectfork).
 * Subscribe to the [Projectfork Channel on Youtube](http://youtube.com/user/projectfork).

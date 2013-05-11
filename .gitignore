@@ -24,11 +24,8 @@ tx.exe
 
 
 #############
-## uncomplete translations
+## new translations with status below 80%
 #############
-
-# Slovak
-source/languages/sk_SK/
 
 # Ukrainian
 source/languages/uk-UA/

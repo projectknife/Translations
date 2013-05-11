@@ -1,8 +1,11 @@
 # [Projectfork](https://projectfork.net) Translations
-_The official Language Pack for Projectfork 4 - A Project Management Extension for Joomla!_
+
+_A Project Management Extension for Joomla!_
+
+* **Please note:** This Language Pack is for Projectfork 4.x only!*
 
 ## Quick start
-This file contains all the languages which are currently available for Projectfork 4.0.0 for Joomla! 2.5 and 3.0.
+This file contains all the languages which are currently available for Projectfork 4.x for Joomla! 2.5 and 3.0.
 
 We recommend that you install the most recent language every time you have upgraded Projectfork (If you installed the "Language Pack", you could use the update function from Joomla!).
 
@@ -20,7 +23,7 @@ Additionally the "Extension Manager" will have a package called "Projectfork Lan
 
 
 ## Bug tracker
-Have an issue related tho the *Projectfork Language Pack*? [Please open a new issue](https://github.com/projectfork/Translations/issues). Before opening an issue, please search for existing issues and read the [Issue Guidelines](CONTRIBUTING.md#bugs).
+Have an issue related tho the *Projectfork Language Pack*? [Please open a new issue](https://github.com/projectfork/Translations/issues). Before opening any issue, please search for existing issues and read the [Issue Guidelines](CONTRIBUTING.md).
 
 
 ## Contributing
@@ -29,12 +32,10 @@ Languages in this package may missing translations. To see the status of your la
 Anyone and everyone is welcome to contribute. Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md)
 
 #### Language Pack Installer
-Please submit [pull requests](CONTRIBUTING.md#pull-requests) against this `master` branch.
+Please submit all [pull requests](CONTRIBUTING.md) against this `master` branch.
 
 #### Help translate Projectfork
 If you want to help us to **translate your language**, please have a look at: [Getting Involved](https://github.com/projectfork/Translations/wiki/Getting-involved)
-
-#### Thanks!
 
 
 ## Community
@@ -46,5 +47,6 @@ Keep track of development and community news.
 * Subscribe to the [Projectfork Channel on Youtube](http://youtube.com/user/projectfork).
 * Read and subscribe to the [The Official Projectfork Blog](https://projectfork.net/blog).
 
-
 <small>(C) 2012 - 2013 by the [Projectfork Translation Team](https://github.com/projectfork/Translations/wiki/Translation-team). All rights reserved.</small>
+
+#### Thanks!

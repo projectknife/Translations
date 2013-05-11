@@ -47,6 +47,4 @@ Keep track of development and community news.
 * Subscribe to the [Projectfork Channel on Youtube](http://youtube.com/user/projectfork).
 * Read and subscribe to the [The Official Projectfork Blog](https://projectfork.net/blog).
 
-<small>(C) 2012 - 2013 by the [Projectfork Translation Team](https://github.com/projectfork/Translations/wiki/Translation-team). All rights reserved.</small>
-
 #### Thanks!

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="2.5" method="upgrade">
+	<name>Projectfork Language - uk-UA</name>
+	<author>Projectfork Translation Team</author>
+	<creationDate>April 2013</creationDate>
+	<copyright>(C) 2012 - 2013 by the Projectfork Translation Team. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@projectfork.net</authorEmail>
+	<authorUrl>www.projectfork.net</authorUrl>
+	<version>4.0.0.0</version>
+	<description>The uk-UA language pack for Projectfork 4, a Project Management extension for Joomla!</description>
+	
+	<fileset>
+		<files folder="admin" target="administrator/language/uk-UA">
+			<filename>uk-UA.com_pfcomments.ini</filename>
+			<filename>uk-UA.com_pfcomments.sys.ini</filename>
+			<filename>uk-UA.com_pfforum.ini</filename>
+			<filename>uk-UA.com_pfforum.sys.ini</filename>
+			<filename>uk-UA.com_pfmilestones.ini</filename>
+			<filename>uk-UA.com_pfmilestones.sys.ini</filename>
+			<filename>uk-UA.com_pfprojects.ini</filename>
+			<filename>uk-UA.com_pfprojects.sys.ini</filename>
+			<filename>uk-UA.com_pfrepo.ini</filename>
+			<filename>uk-UA.com_pfrepo.sys.ini</filename>
+			<filename>uk-UA.com_pftasks.ini</filename>
+			<filename>uk-UA.com_pftasks.sys.ini</filename>
+			<filename>uk-UA.com_pftime.ini</filename>
+			<filename>uk-UA.com_pftime.sys.ini</filename>
+			<filename>uk-UA.com_pfusers.ini</filename>
+			<filename>uk-UA.com_pfusers.sys.ini</filename>
+			<filename>uk-UA.com_projectfork.ini</filename>
+			<filename>uk-UA.com_projectfork.sys.ini</filename>
+			<filename>uk-UA.plg_content_pfcomments.ini</filename>
+			<filename>uk-UA.plg_content_pfcomments.sys.ini</filename>
+			<filename>uk-UA.plg_content_pfnotifications.ini</filename>
+			<filename>uk-UA.plg_content_pfnotifications.sys.ini</filename>
+		</files>
+		
+		<files folder="site" target="language/uk-UA">
+			<filename>uk-UA.com_projectfork.ini</filename>
+			<filename>uk-UA.mod_pf_dash_buttons.ini</filename>
+			<filename>uk-UA.mod_pf_dash_buttons.sys.ini</filename>
+			<filename>uk-UA.mod_pf_tasks.ini</filename>
+			<filename>uk-UA.mod_pf_tasks.sys.ini</filename>
+		</files>
+	</fileset>
+</extension>

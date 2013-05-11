@@ -27,11 +27,26 @@ tx.exe
 ## uncomplete translations
 #############
 
-source/languages/zh-TW/
-source/languages/da-DK/
-source/languages/cs-CZ/
-source/languages/ru-PO/
-source/languages/fa-IR/
-source/languages/pt_PT/
+# Slovak
+source/languages/sk_SK/
+
+# Ukrainian
 source/languages/uk-UA/
+
+# Chinese Taiwan
+source/languages/zh-TW/
+
+# Persian
+source/languages/fa-IR/
+
+# Czech
+source/languages/cs-CZ/
+
+#Russian Petrine
+source/languages/ru-PO/
+
+# Danish
+source/languages/da-DK/
+
+# Finnish
 source/languages/fi-FI/

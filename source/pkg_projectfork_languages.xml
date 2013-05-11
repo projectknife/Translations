@@ -2,12 +2,12 @@
 <extension type="package" version="2.5" method="upgrade">
 	<name>Projectfork Language Pack Installer</name>
 	<packagename>projectfork_languages</packagename>
-	<creationDate>04-21-2013</creationDate>
+	<creationDate>May 2013</creationDate>
 	<author>Projectfork Translation Team</author>
 	<authorEmail>support@projectfork.net</authorEmail>
 	<authorUrl>http://www.projectfork.net</authorUrl>
 	<copyright>(C) 2012 - 2013 by the Projectfork Translation Team. All rights reserved.</copyright>
-	<version>4.0.0.0</version>
+	<version>4.1.0.0</version>
 	<updateable>fullupdate</updateable>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<description></description>

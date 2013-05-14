@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="2.5" method="upgrade">
+	<name>Projectfork Language - cs-CZ</name>
+	<author>Projectfork Translation Team</author>
+	<creationDate>May 2013</creationDate>
+	<copyright>(C) 2012 - 2013 by the Projectfork Translation Team. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@projectfork.net</authorEmail>
+	<authorUrl>www.projectfork.net</authorUrl>
+	<version>4.1.0.0</version>
+	<description>The cs-CZ language pack for Projectfork 4, a Project Management extension for Joomla!</description>
+	
+	<fileset>
+		<files folder="admin" target="administrator/language/cs-CZ">
+			<filename>cs-CZ.com_pfcomments.ini</filename>
+			<filename>cs-CZ.com_pfcomments.sys.ini</filename>
+			<filename>cs-CZ.com_pfforum.ini</filename>
+			<filename>cs-CZ.com_pfforum.sys.ini</filename>
+			<filename>cs-CZ.com_pfmilestones.ini</filename>
+			<filename>cs-CZ.com_pfmilestones.sys.ini</filename>
+			<filename>cs-CZ.com_pfprojects.ini</filename>
+			<filename>cs-CZ.com_pfprojects.sys.ini</filename>
+			<filename>cs-CZ.com_pfrepo.ini</filename>
+			<filename>cs-CZ.com_pfrepo.sys.ini</filename>
+			<filename>cs-CZ.com_pftasks.ini</filename>
+			<filename>cs-CZ.com_pftasks.sys.ini</filename>
+			<filename>cs-CZ.com_pftime.ini</filename>
+			<filename>cs-CZ.com_pftime.sys.ini</filename>
+			<filename>cs-CZ.com_pfusers.ini</filename>
+			<filename>cs-CZ.com_pfusers.sys.ini</filename>
+			<filename>cs-CZ.com_projectfork.ini</filename>
+			<filename>cs-CZ.com_projectfork.sys.ini</filename>
+			<filename>cs-CZ.plg_content_pfcomments.ini</filename>
+			<filename>cs-CZ.plg_content_pfcomments.sys.ini</filename>
+			<filename>cs-CZ.plg_content_pfnotifications.ini</filename>
+			<filename>cs-CZ.plg_content_pfnotifications.sys.ini</filename>
+		</files>
+		
+		<files folder="site" target="language/cs-CZ">
+			<filename>cs-CZ.com_projectfork.ini</filename>
+			<filename>cs-CZ.mod_pf_dash_buttons.ini</filename>
+			<filename>cs-CZ.mod_pf_dash_buttons.sys.ini</filename>
+			<filename>cs-CZ.mod_pf_tasks.ini</filename>
+			<filename>cs-CZ.mod_pf_tasks.sys.ini</filename>
+		</files>
+	</fileset>
+</extension>

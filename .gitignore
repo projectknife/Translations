@@ -39,8 +39,8 @@ source/languages/fa-IR/
 #Russian Petrine
 source/languages/ru-PO/
 
-# Danish
-source/languages/da-DK/
-
 # Finnish
 source/languages/fi-FI/
+
+# Arabic
+source/languages/ar-AA

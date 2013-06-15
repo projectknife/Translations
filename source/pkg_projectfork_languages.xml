@@ -2,7 +2,7 @@
 <extension type="package" version="2.5" method="upgrade">
 	<name>Projectfork Language Pack Installer</name>
 	<packagename>projectfork_languages</packagename>
-	<creationDate>May 2013</creationDate>
+	<creationDate>June 2013</creationDate>
 	<author>Projectfork Translation Team</author>
 	<authorEmail>support@projectfork.net</authorEmail>
 	<authorUrl>http://www.projectfork.net</authorUrl>

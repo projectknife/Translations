@@ -28,23 +28,5 @@ update.bat
 ## new translations with status below 80%
 #############
 
-# Ukrainian
-source/languages/uk-UA/
-
-# Chinese Taiwan
-source/languages/zh-TW/
-
 # Persian
 source/languages/fa-IR/
-
-#Russian Petrine
-source/languages/ru-PO/
-
-# Finnish
-source/languages/fi-FI/
-
-# Arabic
-source/languages/ar-AA
-
-# Serbian (Cyrillic)
-source/languages/sr-RS

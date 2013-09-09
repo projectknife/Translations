@@ -8,7 +8,18 @@
 	<authorEmail>support@projectfork.net</authorEmail>
 	<authorUrl>www.projectfork.net</authorUrl>
 	<version>4.1.0.1</version>
-	<description>The zh-TW language pack for Projectfork 4, a Project Management extension for Joomla!</description>
+	<description>
+		<![CDATA[
+			The zh-TW language pack for Projectfork 4, a Project Management extension for Joomla!
+
+			<h6>Translation Credits:</h6>
+			<strong>Coordinators:</strong>
+			<ul>
+				<li>(Kevin C. Chen) hopelamb</li>
+				<li>(Stanley) stan88</li>
+			</ul>
+		]]>
+	</description>
 	
 	<fileset>
 		<files folder="admin" target="administrator/language/zh-TW">

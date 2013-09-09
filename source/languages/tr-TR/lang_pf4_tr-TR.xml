@@ -8,7 +8,17 @@
 	<authorEmail>support@projectfork.net</authorEmail>
 	<authorUrl>www.projectfork.net</authorUrl>
 	<version>4.1.0.1</version>
-	<description>The tr-TR language pack for Projectfork 4, a Project Management extension for Joomla!</description>
+	<description>
+		<![CDATA[
+			The tr-TR language pack for Projectfork 4, a Project Management extension for Joomla!
+
+			<h6>Translation Credits:</h6>
+			<strong>Coordinator:</strong>
+			<ul>
+				<li>(Kaya Zeren) kayazeren</li>
+			</ul>
+		]]>
+	</description>
 	
 	<fileset>
 		<files folder="admin" target="administrator/language/tr-TR">

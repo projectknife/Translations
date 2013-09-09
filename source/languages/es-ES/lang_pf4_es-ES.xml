@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="2.5" method="upgrade">
+	<name>Projectfork Language - es-ES</name>
+	<author>Projectfork Translation Team</author>
+	<creationDate>2013-09-09</creationDate>
+	<copyright>(C) 2012 - 2013 by the Projectfork Translation Team. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@projectfork.net</authorEmail>
+	<authorUrl>www.projectfork.net</authorUrl>
+	<version>4.1.0.1</version>
+	<description>
+		<![CDATA[
+			The es-ES language pack for Projectfork 4, a Project Management extension for Joomla!
+
+			<h6>Translation Credits:</h6>
+			<strong>Coordinators:</strong>
+			<ul>
+				<li>(Julio Abundis) JulioAbundis</li>
+				<li>(Rodrigo) rmartinc</li>
+			</ul>
+		]]>
+	</description>
+
+	<fileset>
+		<files folder="admin" target="administrator/language/es-ES">
+			<filename>es-ES.com_pfcomments.ini</filename>
+			<filename>es-ES.com_pfcomments.sys.ini</filename>
+			<filename>es-ES.com_pfforum.ini</filename>
+			<filename>es-ES.com_pfforum.sys.ini</filename>
+			<filename>es-ES.com_pfmilestones.ini</filename>
+			<filename>es-ES.com_pfmilestones.sys.ini</filename>
+			<filename>es-ES.com_pfprojects.ini</filename>
+			<filename>es-ES.com_pfprojects.sys.ini</filename>
+			<filename>es-ES.com_pfrepo.ini</filename>
+			<filename>es-ES.com_pfrepo.sys.ini</filename>
+			<filename>es-ES.com_pftasks.ini</filename>
+			<filename>es-ES.com_pftasks.sys.ini</filename>
+			<filename>es-ES.com_pftime.ini</filename>
+			<filename>es-ES.com_pftime.sys.ini</filename>
+			<filename>es-ES.com_pfusers.ini</filename>
+			<filename>es-ES.com_pfusers.sys.ini</filename>
+			<filename>es-ES.com_projectfork.ini</filename>
+			<filename>es-ES.com_projectfork.sys.ini</filename>
+			<filename>es-ES.plg_content_pfcomments.ini</filename>
+			<filename>es-ES.plg_content_pfcomments.sys.ini</filename>
+			<filename>es-ES.plg_content_pfnotifications.ini</filename>
+			<filename>es-ES.plg_content_pfnotifications.sys.ini</filename>
+		</files>
+		
+		<files folder="site" target="language/es-ES">
+			<filename>es-ES.com_projectfork.ini</filename>
+			<filename>es-ES.mod_pf_dash_buttons.ini</filename>
+			<filename>es-ES.mod_pf_dash_buttons.sys.ini</filename>
+			<filename>es-ES.mod_pf_tasks.ini</filename>
+			<filename>es-ES.mod_pf_tasks.sys.ini</filename>
+		</files>
+	</fileset>
+</extension>

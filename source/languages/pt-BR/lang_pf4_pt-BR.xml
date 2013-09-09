@@ -8,7 +8,22 @@
 	<authorEmail>support@projectfork.net</authorEmail>
 	<authorUrl>www.projectfork.net</authorUrl>
 	<version>4.1.0.1</version>
-	<description>The pt-BR language pack for Projectfork 4, a Project Management extension for Joomla!</description>
+	<description>
+		<![CDATA[
+			The pt-BR language pack for Projectfork 4, a Project Management extension for Joomla!
+
+			<h6>Translation Credits:</h6>
+			<strong>Coordinators:</strong>
+			<ul>
+				<li>(Uziel Almeida Oliveira) uzielweb</li>
+				<li>(Roberto Oliveira) topweb</li>
+			</ul>
+			<strong>Reviewer:</strong>
+			<ul>
+				<li>(Rodrigo Sanzovo) rodrigosanz</li>
+			</ul>
+		]]>
+	</description>
 	
 	<fileset>
 		<files folder="admin" target="administrator/language/pt-BR">

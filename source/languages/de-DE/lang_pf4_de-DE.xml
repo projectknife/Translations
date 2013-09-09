@@ -8,7 +8,18 @@
 	<authorEmail>support@projectfork.net</authorEmail>
 	<authorUrl>www.projectfork.net</authorUrl>
 	<version>4.1.0.1</version>
-	<description>The de-DE language pack for Projectfork 4, a Project Management extension for Joomla!</description>
+	<description>
+		<![CDATA[
+			The de-DE language pack for Projectfork 4, a Project Management extension for Joomla!
+
+			<h6>Translation Credits:</h6>
+			<strong>Coordinators:</strong>
+			<ul>
+				<li>(Lahmizzar Muinela) lahmizzar</li>
+				<li>(Tobias Kuhn) eaxs</li>
+			</ul>
+		]]>
+	</description>
 	
 	<fileset>
 		<files folder="admin" target="administrator/language/de-DE">

@@ -51,6 +51,6 @@ Keep track of development and community news.
 
 
 <center>
-## Statistic Chart ##
+#### Statistic Chart ####
 <img border="0" src="https://www.transifex.com/projects/p/projectfork-languages/chart/image_png"/>
 </center>

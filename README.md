@@ -48,3 +48,9 @@ Keep track of development and community news.
 * Read and subscribe to the [The Official Projectfork Blog](https://projectfork.net/blog).
 
 #### Thanks!
+
+
+<center>
+## Statistic Chart ##
+<img border="0" src="https://www.transifex.com/projects/p/projectfork-languages/chart/image_png"/>
+</center>

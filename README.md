@@ -37,6 +37,8 @@ Please submit all [pull requests](CONTRIBUTING.md) against this `master` branch.
 #### Help translate Projectfork
 If you want to help us to **translate your language**, please have a look at: [Getting Involved](https://github.com/projectfork/Translations/wiki/Getting-involved)
 
+<img border="0" width="100" src="https://www.transifex.com/projects/p/projectfork-languages/chart/image_png"/>
+
 
 ## Community
 Keep track of development and community news.
@@ -48,9 +50,3 @@ Keep track of development and community news.
 * Read and subscribe to the [The Official Projectfork Blog](https://projectfork.net/blog).
 
 #### Thanks!
-
-
-<center>
-#### Statistic Chart ####
-<img border="0" src="https://www.transifex.com/projects/p/projectfork-languages/chart/image_png"/>
-</center>

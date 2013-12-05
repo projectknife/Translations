@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="2.5" method="upgrade">
+	<name>Projectfork Language - fa-IR</name>
+	<author>Projectfork Translation Team</author>
+	<creationDate>2013-12-05</creationDate>
+	<copyright>(C) 2012 - 2013 by the Projectfork Translation Team. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@projectfork.net</authorEmail>
+	<authorUrl>www.projectfork.net</authorUrl>
+	<version>$3</version>
+	<description>
+		<![CDATA[
+			The fa-IR language pack for Projectfork 4, a Project Management extension for Joomla!
+
+			<h6>Translation Credits:</h6>
+			<strong>This translation is brought to you by the <a href="https://www.transifex.com/projects/p/projectfork-languages/language/fa_IR/members/" target="_blank">fa-IR - Translation Team</a></strong>
+		]]>
+	</description>
+
+	<fileset>
+		<files folder="admin" target="administrator/language/fa-IR">
+			<filename>fa-IR.com_pfcomments.ini</filename>
+			<filename>fa-IR.com_pfcomments.sys.ini</filename>
+			<filename>fa-IR.com_pfforum.ini</filename>
+			<filename>fa-IR.com_pfforum.sys.ini</filename>
+			<filename>fa-IR.com_pfmilestones.ini</filename>
+			<filename>fa-IR.com_pfmilestones.sys.ini</filename>
+			<filename>fa-IR.com_pfprojects.ini</filename>
+			<filename>fa-IR.com_pfprojects.sys.ini</filename>
+			<filename>fa-IR.com_pfrepo.ini</filename>
+			<filename>fa-IR.com_pfrepo.sys.ini</filename>
+			<filename>fa-IR.com_pftasks.ini</filename>
+			<filename>fa-IR.com_pftasks.sys.ini</filename>
+			<filename>fa-IR.com_pftime.ini</filename>
+			<filename>fa-IR.com_pftime.sys.ini</filename>
+			<filename>fa-IR.com_pfusers.ini</filename>
+			<filename>fa-IR.com_pfusers.sys.ini</filename>
+			<filename>fa-IR.com_projectfork.ini</filename>
+			<filename>fa-IR.com_projectfork.sys.ini</filename>
+			<filename>fa-IR.plg_content_pfcomments.ini</filename>
+			<filename>fa-IR.plg_content_pfcomments.sys.ini</filename>
+			<filename>fa-IR.plg_content_pfnotifications.ini</filename>
+			<filename>fa-IR.plg_content_pfnotifications.sys.ini</filename>
+		</files>
+
+		<files folder="site" target="language/fa-IR">
+			<filename>fa-IR.com_projectfork.ini</filename>
+			<filename>fa-IR.mod_pf_dash_buttons.ini</filename>
+			<filename>fa-IR.mod_pf_dash_buttons.sys.ini</filename>
+			<filename>fa-IR.mod_pf_tasks.ini</filename>
+			<filename>fa-IR.mod_pf_tasks.sys.ini</filename>
+		</files>
+	</fileset>
+</extension>

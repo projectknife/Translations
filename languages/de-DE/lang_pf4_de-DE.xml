@@ -2,25 +2,21 @@
 <extension type="file" version="2.5" method="upgrade">
 	<name>Projectfork Language - de-DE</name>
 	<author>Projectfork Translation Team</author>
-	<creationDate>2013-09-09</creationDate>
+	<creationDate>2013-12-05</creationDate>
 	<copyright>(C) 2012 - 2013 by the Projectfork Translation Team. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>support@projectfork.net</authorEmail>
 	<authorUrl>www.projectfork.net</authorUrl>
-	<version>4.1.0.1</version>
+	<version>$3</version>
 	<description>
 		<![CDATA[
 			The de-DE language pack for Projectfork 4, a Project Management extension for Joomla!
 
 			<h6>Translation Credits:</h6>
-			<strong>Coordinators:</strong>
-			<ul>
-				<li>(Lahmizzar Muinela) lahmizzar</li>
-				<li>(Tobias Kuhn) eaxs</li>
-			</ul>
+			<strong>This translation is brought to you by the <a href="https://www.transifex.com/projects/p/projectfork-languages/language/de_DE/members/" target="_blank">de-DE - Translation Team</a></strong>
 		]]>
 	</description>
-	
+
 	<fileset>
 		<files folder="admin" target="administrator/language/de-DE">
 			<filename>de-DE.com_pfcomments.ini</filename>
@@ -46,7 +42,7 @@
 			<filename>de-DE.plg_content_pfnotifications.ini</filename>
 			<filename>de-DE.plg_content_pfnotifications.sys.ini</filename>
 		</files>
-		
+
 		<files folder="site" target="language/de-DE">
 			<filename>de-DE.com_projectfork.ini</filename>
 			<filename>de-DE.mod_pf_dash_buttons.ini</filename>

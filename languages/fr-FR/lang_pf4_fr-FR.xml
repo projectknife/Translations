@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="file" version="2.5" method="upgrade">
-	<name>lang_projectfork4_fr-FR</name>
+	<name>Projectfork Language - fr-FR</name>
 	<author>Projectfork Translation Team</author>
-	<creationDate>2013-09-09</creationDate>
+	<creationDate>2013-12-05</creationDate>
 	<copyright>(C) 2012 - 2013 by the Projectfork Translation Team. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>support@projectfork.net</authorEmail>
 	<authorUrl>www.projectfork.net</authorUrl>
-	<version>4.1.0.1</version>
+	<version>$3</version>
 	<description>
 		<![CDATA[
 			The fr-FR language pack for Projectfork 4, a Project Management extension for Joomla!
 
 			<h6>Translation Credits:</h6>
-			<strong>Coordinators:</strong>
-			<ul>
-				<li>(Tobias Kuhn) eaxs</li>
-				<li>THostettler</li>
-			</ul>
-			<strong>Reviewer:</strong>
-			<ul>
-				<li>AlterChildren</li>
-			</ul>
+			<strong>This translation is brought to you by the <a href="https://www.transifex.com/projects/p/projectfork-languages/language/fr_FR/members/" target="_blank">fr-FR - Translation Team</a></strong>
 		]]>
 	</description>
-	
+
 	<fileset>
 		<files folder="admin" target="administrator/language/fr-FR">
 			<filename>fr-FR.com_pfcomments.ini</filename>
@@ -50,7 +42,7 @@
 			<filename>fr-FR.plg_content_pfnotifications.ini</filename>
 			<filename>fr-FR.plg_content_pfnotifications.sys.ini</filename>
 		</files>
-		
+
 		<files folder="site" target="language/fr-FR">
 			<filename>fr-FR.com_projectfork.ini</filename>
 			<filename>fr-FR.mod_pf_dash_buttons.ini</filename>

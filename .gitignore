@@ -25,9 +25,17 @@ push.bat
 .DS_Store
 
 
-#############
-## new translations with status below 80%
-#############
+#################
+# X-Build-Stuff
+#################
+push
+push.sh
 
-# Persian
-source/languages/fa-IR/
+pull
+pull.sh
+
+buildManifest
+buildManifest.sh
+
+buildUserStatistics
+buildUserStatistics.sh

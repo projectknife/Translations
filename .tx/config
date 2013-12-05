@@ -1,6 +1,6 @@
 [main]
 host = https://www.transifex.com
-lang_map = en_GB: en-GB, cs_CZ: cs-CZ, nl_NL: nl-NL, fr_FR: fr-FR, de_DE: de-DE, el: el-GR, ja_JP: ja-JP, pt_BR: pt-BR, pt_PT: pt-PT, tr_TR: tr-TR, da_DK: da-DK, hu_HU: hu-HU, th_TH: th-TH, ru: ru-RU, sv_SE: sv-SE, es_ES: es-ES, ca_ES: ca-ES, it_IT: it-IT, nb_NO: nb-NO, sk: sk-SK, uk-UA: uk-UA, zh_TW: zh-TW, fa_IR: fa-IR, ru@petr1708: ru-PO, ar: ar-AA, fi: fi-FI, sr_RS: sr-RS, br: xXx
+lang_map = en_GB: en-GB, cs_CZ: cs-CZ, nl_NL: nl-NL, fr_FR: fr-FR, de_DE: de-DE, el_GR: el-GR, ja_JP: ja-JP, pt_BR: pt-BR, pt_PT: pt-PT, tr_TR: tr-TR, da_DK: da-DK, hu_HU: hu-HU, th_TH: th-TH, ru_RU: ru-RU, sv_SE: sv-SE, es_ES: es-ES, ca_ES: ca-ES, it_IT: it-IT, nb_NO: nb-NO, sk_SK: sk-SK, uk_UA: uk-UA, zh_TW: zh-TW, fa_IR: fa-IR, ru@petr1708: ru-PO, ar_AA: ar-AA, fi: fi-FI, sr_RS: sr-RS, es_MX: es-MX, bg_BG: bg-BG, nl_BE: nl-BE, ro_RO: ro-RO, pl_PL: pl-PL
 type = INI
 
 [projectfork-languages.admin-com_pfcomments]

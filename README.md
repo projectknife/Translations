@@ -1,6 +1,6 @@
 # [Projectfork](https://projectfork.net) Translations
 
-_A Project Management Extension for Joomla!_
+_The language package for Projectfork 4_
 
 * **Please note:** This Language Pack is for Projectfork 4.x only!*
 
@@ -10,7 +10,8 @@ This file contains all the languages which are currently available for Projectfo
 We recommend that you install the most recent language every time you have upgraded Projectfork (If you installed the "Language Pack", you could use the update function from Joomla!).
 
 
-Projectfork Language Pack - *~~[download the latest release](http://projectfork.net/downloads)~~*
+### Projectfork Language Pack - **[download the latest release](https://github.com/projectfork/Translations/tree/master/archive/zips)**
+
 
 #### Installing languages in Joomla! 2.5+ and 3.0+
 Just install this package by using Joomla installer. If you cannot install the package because of 2MB upload limit, you can either install the package from URL or make the file smaller by removing a few languages you do not need.

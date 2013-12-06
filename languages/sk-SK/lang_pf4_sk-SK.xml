@@ -7,13 +7,13 @@
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>support@projectfork.net</authorEmail>
 	<authorUrl>www.projectfork.net</authorUrl>
-	<version>$3</version>
+	<version>4.2.0b4</version>
 	<description>
 		<![CDATA[
 			The sk-SK language pack for Projectfork 4, a Project Management extension for Joomla!
 
 			<h6>Translation Credits:</h6>
-			<strong>This translation is brought to you by the <a href="https://www.transifex.com/projects/p/projectfork-languages/language/4.2.0b4/members/" target="_blank">sk-SK - Translation Team</a></strong>
+			<strong>This translation is brought to you by the <a href="https://www.transifex.com/projects/p/projectfork-languages/language/sk_SK/members/" target="_blank">sk-SK - Translation Team</a></strong>
 		]]>
 	</description>
 

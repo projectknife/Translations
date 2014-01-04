@@ -13,8 +13,11 @@
 # How to use
 # > ./pull
 
-txClient="../../../transifex-client/tx"
+txClient="../../transifex-client/tx"
 version="$1"
+
+$txClient pull -l da_DK	# 100%
+./buildManifest da-DK da_DK $version
 
 $txClient pull -l fr_FR	# 100%
 ./buildManifest fr-FR fr_FR $version
@@ -33,6 +36,9 @@ $txClient pull -l es_ES	# 100%
 
 $txClient pull -l tr_TR	# 100%
 ./buildManifest tr-TR tr_TR $version
+
+$txClient pull -l nb_NO	# 98%
+./buildManifest nb-NO nb_NO $version
 
 $txClient pull -l pl_PL	# 98%
 ./buildManifest pl-PL pl_PL $version
@@ -70,16 +76,10 @@ $txClient pull -l cs_CZ	# 93%
 $txClient pull -l pt_PT	# 93%
 ./buildManifest pt-PT pt_PT $version
 
-$txClient pull -l da_DK	# 92%
-./buildManifest da-DK da_DK $version
-
 $txClient pull -l sv_SE	# 90%
 ./buildManifest sv-SE sv_SE $version
 
-$txClient pull -l nb_NO	# 84%
-./buildManifest nb-NO nb_NO $version
-
-$txClient pull -l sk_SK	# 69%
+$txClient pull -l sk_SK	# 70%
 ./buildManifest sk-SK sk_SK $version
 
 $txClient pull -l uk_UA	# 56%

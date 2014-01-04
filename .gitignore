@@ -28,19 +28,8 @@ push.bat
 #################
 # X-Build-Stuff
 #################
-_build
-
-create
-create.sh
-
 push
 push.sh
-
-pull
-pull.sh
-
-buildManifest
-buildManifest.sh
 
 buildUserStatistics
 buildUserStatistics.sh

@@ -14,7 +14,8 @@
 #
 # > ./buildManifest ru-RU
 
-rootPath='../languages'
+sourcePath=$(realpath .)
+rootPath='$sourcePath/languages'
 
 # Settings
 filePrefix='lang_pf4_'

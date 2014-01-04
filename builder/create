@@ -13,6 +13,8 @@
 # ./create update 4.2.0b4 2013-12-06 (Fetch Updates from transifex first, then create the install file)
 # ./create 4.2.0b4 2013-12-06 (Create the install file from the existing/current languages folder)
 
+sourcePath=$(realpath .)
+
 setUpdate="$1"
 setVersion="$2"
 setDate="$3"
@@ -32,7 +34,7 @@ if [[ "$1" != "" && "$2" == "" ]]
 if [[ "$3" == "" ]]
     then
 		setDate=$(date +"%Y-%m-%d")
-    echo 'Using $setDate as build date'
+    echo "Using $setDate as build date"
 	fi
 
 version=$setVersion
@@ -40,10 +42,8 @@ creationDate=$setDate
 
 if [[ "$1" == "update" ]]
     then
-    ./pull $version
+    $sourcePath/builder/pull $version
   fi
-
-sourcePath=$(realpath .)
 
 tempDir="$sourcePath/pkg_projectfork_languages"
 fileName="pkg_projectfork_languages.xml"

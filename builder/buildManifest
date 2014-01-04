@@ -1,0 +1,110 @@
+#!/bin/bash
+
+  ######################################
+  # Author: devXive, Lahmizzar Muinela #
+  # Email: support@devxive.com         #
+  # Twitter: @devXive                  #
+  # Website: http://www.devxive.com    #
+  ######################################
+
+# Simple script to build an appropriate language manifest
+#
+# How to use
+# ./buildManifest [Joomla Language String] [Transifex Language String]
+#
+# > ./buildManifest ru-RU
+
+rootPath='../languages'
+
+# Settings
+filePrefix='lang_pf4_'
+
+# ver='4.2.0b4'
+ver="$3"
+creationDate=''
+name="Projectfork Language - $1"
+author='Projectfork Translation Team'
+authorEmail='support@projectfork.net'
+authorUrl='www.projectfork.net'
+copyright='(C) 2012 - 2013 by the Projectfork Translation Team. All rights reserved.'
+
+# Advanced Settings
+installVer="2.5"
+
+########## ------------------- DO NOT TOUCH BELOW ------------------- ##########
+# Set language string
+lang="$1"
+txLang="$2"
+
+# Prepare file and directory
+file="$filePrefix$lang$fileSuffix.xml"
+dir="$lang"
+
+rm -rf "$rootPath/$dir/$file"
+# rm -rf "$rootPath/$dir"
+
+mkdir "$rootPath/$dir"
+touch "$rootPath/$dir/$file"
+
+newFile="$rootPath/$dir/$file"
+
+if [[ "$creationDate" == "" ]]
+    then
+		creationDate=$(date +"%Y-%m-%d")
+	fi
+
+echo '<?xml version="1.0" encoding="utf-8"?>' >> "$newFile"
+echo '<extension type="file" version="'"$installVer"'" method="upgrade">' >> "$newFile"
+echo "	<name>$name</name>" >> "$newFile"
+echo "	<author>$author</author>" >> "$newFile"
+echo "	<creationDate>$creationDate</creationDate>" >> "$newFile"
+echo "	<copyright>$copyright</copyright>" >> "$newFile"
+echo "	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>" >> "$newFile"
+echo "	<authorEmail>$authorEmail</authorEmail>" >> "$newFile"
+echo "	<authorUrl>$authorUrl</authorUrl>" >> "$newFile"
+echo "	<version>$ver</version>" >> "$newFile"
+echo "	<description>" >> "$newFile"
+echo "		<![CDATA[" >> "$newFile"
+echo "			The $lang language pack for Projectfork 4, a Project Management extension for Joomla!" >> "$newFile"
+echo "" >> "$newFile"
+echo "			<h6>Translation Credits:</h6>" >> "$newFile"
+echo "			<strong>This translation is brought to you by the <a href=\"https://www.transifex.com/projects/p/projectfork-languages/language/$txLang/members/\" target=\"_blank\">$lang - Translation Team</a></strong>" >> "$newFile"
+echo "		]]>" >> "$newFile"
+echo "	</description>" >> "$newFile"
+echo "" >> "$newFile"
+echo "	<fileset>" >> "$newFile"
+echo "		<files folder=\"admin\" target=\"administrator/language/$lang\">" >> "$newFile"
+echo "			<filename>$lang.com_pfcomments.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_pfcomments.sys.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_pfforum.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_pfforum.sys.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_pfmilestones.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_pfmilestones.sys.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_pfprojects.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_pfprojects.sys.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_pfrepo.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_pfrepo.sys.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_pftasks.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_pftasks.sys.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_pftime.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_pftime.sys.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_pfusers.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_pfusers.sys.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_projectfork.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.com_projectfork.sys.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.plg_content_pfcomments.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.plg_content_pfcomments.sys.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.plg_content_pfnotifications.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.plg_content_pfnotifications.sys.ini</filename>" >> "$newFile"
+echo "		</files>" >> "$newFile"
+echo "" >> "$newFile"
+echo "		<files folder=\"site\" target=\"language/$lang\">" >> "$newFile"
+echo "			<filename>$lang.com_projectfork.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.mod_pf_dash_buttons.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.mod_pf_dash_buttons.sys.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.mod_pf_tasks.ini</filename>" >> "$newFile"
+echo "			<filename>$lang.mod_pf_tasks.sys.ini</filename>" >> "$newFile"
+echo "		</files>" >> "$newFile"
+echo "	</fileset>" >> "$newFile"
+echo "</extension>" >> "$newFile"
+

@@ -1,0 +1,89 @@
+#!/bin/bash
+
+  ######################################
+  # Author: devXive, Lahmizzar Muinela #
+  # Email: support@devxive.com         #
+  # Twitter: @devXive                  #
+  # Website: http://www.devxive.com    #
+  ######################################
+
+# Simple script to build an appropriate language manifest
+#
+# How to use
+# ./create update 4.2.0b4 2013-12-06 (Fetch Updates from transifex first, then create the install file)
+# ./create 4.2.0b4 2013-12-06 (Create the install file from the existing/current languages folder)
+
+setUpdate="$1"
+setVersion="$2"
+setDate="$3"
+
+if [[ "$1" != "update" && "$1" != "noupdate" ]]
+    then
+      echo 'Please use update or noupdate or add option --help to get more informations'
+    exit 1 
+  fi
+
+if [[ "$1" != "" && "$2" == "" ]]
+    then
+    	echo 'Please set a version number or add option --help to get more informations'
+		exit 1 
+	fi
+
+if [[ "$3" == "" ]]
+    then
+		setDate=$(date +"%Y-%m-%d")
+    echo 'Using $setDate as build date'
+	fi
+
+version=$setVersion
+creationDate=$setDate
+
+if [[ "$1" == "update" ]]
+    then
+    ./pull $version
+  fi
+
+sourcePath=$(realpath .)
+
+tempDir="$sourcePath/pkg_projectfork_languages"
+fileName="pkg_projectfork_languages.xml"
+
+rm -rf "$tempDir"
+mkdir "$tempDir"
+
+touch "$tempDir/$fileName"
+
+cp -r $sourcePath/languages $tempDir
+cp -r $sourcePath/archive/installer $tempDir
+cp $sourcePath/archive/install.script.php $tempDir
+
+file="$tempDir/pkg_projectfork_languages.xml"
+
+echo '<?xml version="1.0" encoding="UTF-8"?>' >> "$file"
+echo '<extension type="package" version="2.5" method="upgrade">' >> "$file"
+echo '	<name>Projectfork Language Pack Installer</name>' >> "$file"
+echo '	<packagename>projectfork_languages</packagename>' >> "$file"
+echo "	<creationDate>$creationDate</creationDate>" >> "$file"
+echo '	<author>Projectfork Translation Team</author>' >> "$file"
+echo '	<authorEmail>support@projectfork.net</authorEmail>' >> "$file"
+echo '	<authorUrl>http://www.projectfork.net</authorUrl>' >> "$file"
+echo '	<copyright>(C) 2012 - 2013 by the Projectfork Translation Team. All rights reserved.</copyright>' >> "$file"
+echo "	<version>$version</version>" >> "$file"
+echo '	<updateable>fullupdate</updateable>' >> "$file"
+echo '	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>' >> "$file"
+echo '	<description></description>' >> "$file"
+echo '' >> "$file"
+echo '	<scriptfile>install.script.php</scriptfile>' >> "$file"
+echo '' >> "$file"
+echo '	<files folder="languages">' >> "$file"
+echo '	</files>' >> "$file"
+echo '' >> "$file"
+echo '	<!-- Extension Update Specification -->' >> "$file"
+echo '	<updateservers>' >> "$file"
+echo '		<server type="extension" priority="1" name="PF4 Translation Update Server">https://raw.github.com/projectfork/Translations/master/archive/update.xml</server>' >> "$file"
+echo '	</updateservers>' >> "$file"
+echo '</extension>' >> "$file"
+
+# zip build in build script
+# zip -r $sourcePath/archive/zips/lang_pf4_$version.zip $tempDir/*
+# rm -rf "$tempDir"

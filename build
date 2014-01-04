@@ -1,0 +1,56 @@
+#!/bin/bash
+clear
+  ######################################
+  # Author: devXive, Lahmizzar Muinela #
+  # Email: support@devxive.com         #
+  # Twitter: @devXive                  #
+  # Website: http://www.devxive.com    #
+  ######################################
+
+# Simple script to build an appropriate language manifest
+#
+# How to use
+# ./build update 4.2.0b4 2013-12-06 (Fetch Updates from transifex and create the install file)
+# ./build 4.2.0b4 2013-12-06 (Create the install file from current languages folder)
+
+# Name as used in builder/create
+tempDir="pkg_projectfork_languages"
+version="$2"
+
+if [[ "$1" == "--help" || "$2" == "--help" || "$3" == "--help" || "$4" == "--help" ]]
+    then
+      echo 'How to use:'
+      echo '-----------'
+      echo 'Fetch updates from transifex first, then build the language installer package'
+      echo '  ./build update [version_number_to_set] [manual_build_date]'
+      echo '  EG: ./build update 4.2.0b4 2013-12-06'
+      echo ' '
+      echo 'Create the language installer package from current state (without updating languages from transifex first)'
+      echo '  ./build [version_number_to_set] [manual_build_date]'
+      echo '  EG: ./build noupdate 4.2.0b4 2013-12-06'
+      echo ' '
+      echo 'If you want tu use the current timestamp as build date'
+      echo '  ./build noupdate 4.2.0.4b'
+      echo 'or'
+      echo '  ./build update 4.2.0.4b'
+      echo ' '
+      echo ' '
+      echo 'This Help'
+      echo '  ./build --help'
+      echo ' '
+      echo ' '
+      echo 'To get advanced instructions on how to use the transifex client, you have to read the API. http://api.transifex.com.'
+    exit 1 
+  fi
+
+if [[ "$1" == "" || "$2" == "" ]]
+    then
+      echo 'Error: Not all options set! Type "./build --help" to get more options'
+    exit 1 
+  fi
+
+builder/create $1 $2 $3
+
+# Create zip here to prevent deep folder creations in zip file // TODO: Fix this!
+zip -r archive/zips/lang_pf4_$version.zip $tempDir/*
+rm -rf "$tempDir"

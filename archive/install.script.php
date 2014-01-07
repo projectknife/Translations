@@ -12,7 +12,7 @@ defined( '_JEXEC' ) or die();
 class pkg_projectfork_languagesInstallerScript {
 	
 	protected $name = 'lang_pf4';
-	protected $uncomplete_lang = array("da-DK", "hu-HU", "th-TH", "ru-RU", "sv-SE", "es-ES", "ca-ES", "it-IT", "nb-NO", "sk-SK");
+	protected $uncomplete_lang = array("nb-NO", "pl-PL", "ca-ES", "zh-TW", "nl-NL", "it-IT", "ja-JP", "ro-RO", "th-TH", "ru-RU", "el-GR", "cs-CZ", "pt-PT", "sv-SE", "sk-SK", "uk-UA", "nl-BE", "bg-BG", "fa-IR", "es-MX", "ar-AA");
 	
 	public function uninstall($parent) {
 		$languages = JFactory::getLanguage()->getKnownLanguages();

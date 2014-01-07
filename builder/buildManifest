@@ -32,7 +32,7 @@ installVer="2.5"
 
 ########## ------------------- DO NOT TOUCH BELOW ------------------- ##########
 sourcePath=$(realpath .)
-rootPath='$sourcePath/languages'
+rootPath="$sourcePath/languages"
 
 # Example ver='4.2.0b4'
 ver="$3"

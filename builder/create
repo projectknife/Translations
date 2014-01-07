@@ -12,6 +12,8 @@
 # How to use
 # ./create update 4.2.0b4 2013-12-06 (Fetch Updates from transifex first, then create the install file)
 # ./create 4.2.0b4 2013-12-06 (Create the install file from the existing/current languages folder)
+#
+# This script is invoked by the build script, located in the root dir of this repo
 
 sourcePath=$(realpath .)
 

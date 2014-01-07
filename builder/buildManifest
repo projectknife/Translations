@@ -10,19 +10,16 @@
 # Simple script to build an appropriate language manifest
 #
 # How to use
-# ./buildManifest [Joomla Language String] [Transifex Language String]
+# ./buildManifest [Joomla Language String] [Transifex Language String] [Version]
 #
 # > ./buildManifest ru-RU
-
-sourcePath=$(realpath .)
-rootPath='$sourcePath/languages'
+#
+# as used in the pull script
+# $sourcePath/builder/buildManifest da-DK da_DK $version
+#
+# This script is invoked by the pull script to build the appropriate language manifest file
 
 # Settings
-filePrefix='lang_pf4_'
-
-# ver='4.2.0b4'
-ver="$3"
-creationDate=''
 name="Projectfork Language - $1"
 author='Projectfork Translation Team'
 authorEmail='support@projectfork.net'
@@ -30,9 +27,17 @@ authorUrl='www.projectfork.net'
 copyright='(C) 2012 - 2013 by the Projectfork Translation Team. All rights reserved.'
 
 # Advanced Settings
+filePrefix='lang_pf4_'
 installVer="2.5"
 
 ########## ------------------- DO NOT TOUCH BELOW ------------------- ##########
+sourcePath=$(realpath .)
+rootPath='$sourcePath/languages'
+
+# Example ver='4.2.0b4'
+ver="$3"
+creationDate=''
+
 # Set language string
 lang="$1"
 txLang="$2"
@@ -66,6 +71,7 @@ echo "	<authorUrl>$authorUrl</authorUrl>" >> "$newFile"
 echo "	<version>$ver</version>" >> "$newFile"
 echo "	<description>" >> "$newFile"
 echo "		<![CDATA[" >> "$newFile"
+# TODO: add a description var to the settings above
 echo "			The $lang language pack for Projectfork 4, a Project Management extension for Joomla!" >> "$newFile"
 echo "" >> "$newFile"
 echo "			<h6>Translation Credits:</h6>" >> "$newFile"

@@ -1,12 +1,29 @@
 #!/bin/bash
 
-  ######################################
-  # Author: devXive, Lahmizzar Muinela #
-  # Email: support@devxive.com         #
-  # Twitter: @devXive                  #
-  # Website: http://www.devxive.com    #
-  ######################################
-
+# Copyright (C) 1997 - 2014 devXive - research and development
+#
+# The scriptfile is licensed under the Apache License, Version 2.0 (the "License");
+# You may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# The content of static vars and/or static echo output is licensed under the
+# devXive Proprietary Use License (http://devxive.com/legal/license)
+#
+# Author:  devXive, Lahmizzar Muinela
+# Email:   support@devxive.com
+# Twitter: @devxive
+# Website: http://devxive.com
+#
+#
+# Description:
 # Simple script to build an appropriate language manifest
 #
 # How to use
@@ -24,7 +41,7 @@ name="Projectfork Language - $1"
 author='Projectfork Translation Team'
 authorEmail='support@projectfork.net'
 authorUrl='www.projectfork.net'
-copyright='(C) 2012 - 2013 by the Projectfork Translation Team. All rights reserved.'
+copyright='(C) 2012 - 2014 by the Projectfork Translation Team. All rights reserved.'
 
 # Advanced Settings
 filePrefix='lang_pf4_'

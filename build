@@ -1,17 +1,36 @@
 #!/bin/bash
-clear
-  ######################################
-  # Author: devXive, Lahmizzar Muinela #
-  # Email: support@devxive.com         #
-  # Twitter: @devXive                  #
-  # Website: http://www.devxive.com    #
-  ######################################
 
+# Copyright (C) 1997 - 2014 devXive - research and development
+#
+# The scriptfile is licensed under the Apache License, Version 2.0 (the "License");
+# You may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# The content of static vars and/or static echo output is licensed under the
+# devXive Proprietary Use License (http://devxive.com/legal/license)
+#
+# Author:  devXive, Lahmizzar Muinela
+# Email:   support@devxive.com
+# Twitter: @devxive
+# Website: http://devxive.com
+#
+#
+# Description:
 # Simple script to build an appropriate language manifest
 #
 # How to use
 # ./build update 4.2.0b4 2013-12-06 (Fetch Updates from transifex and create the install file)
 # ./build 4.2.0b4 2013-12-06 (Create the install file from current languages folder)
+
+clear
 
 # Name as used in builder/create
 tempDir="pkg_projectfork_languages"

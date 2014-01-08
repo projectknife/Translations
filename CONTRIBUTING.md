@@ -17,9 +17,9 @@ Guidelines for bug reports:
    Manager => Update => Purge Cache*. After that, click *Find Updates*
 
 2. **Use the GitHub issue search** &mdash; check if the issue has already been
-   reported and/or fixed.
+   reported and/or fixed. [Search now for issues](https://github.com/projectfork/Translations/search?ref=cmdform&type=Issues)
 
-3. **Isolate the problem** &mdash; ideally create a live example. _(Language Pack Installer only)_
+3. **Isolate the problem** &mdash; ideally create a live example. _(Issues related to the Language Pack Installer only)_
 
 
 A good bug report shouldn't leave others needing to chase you up for more
@@ -28,7 +28,30 @@ your environment? What steps will reproduce the issue? What browser(s), Projectf
 Joomla and PHP version experience the problem? What would you expect to be the outcome?
 All these details will help people to fix any potential bugs.
 
-Example:
+Example Language Files:
+
+> **Title**
+> Short and descriptive example bug report title (such as _Missing or unupdated language string_)
+>
+> **Comment**:
+> Joomla Version: _3.2.1_
+> Projectfork Version: _4.2.0_
+> Language Pack Version: _4.2.0.3_
+>
+> 1. This is the first step (eg _Go to the backend, click on repository and you will see at the top the untranslated string_)
+> 2. This is the second step (_This string is also located in the frontend. Click here... there... etc....)
+> 3. Further steps, etc.
+>
+> You can also share a screenshot with ease.
+> Just do a screenshot, drag & drop the file/screenshot in the github comment textarea
+> Or if you're screenshot is in the clipboard, just paste it in the comment textarea
+>
+> Any other information you want to share that is relevant to the issue being
+> reported. This might include the lines of code that you have identified as
+> causing the bug, and potential solutions (and your opinions on their merits).
+
+
+Example Language pack Installer:
 
 > Short and descriptive example bug report title
 >
@@ -43,7 +66,6 @@ Example:
 > Any other information you want to share that is relevant to the issue being
 > reported. This might include the lines of code that you have identified as
 > causing the bug, and potential solutions (and your opinions on their merits).
-
 
 ## Feature requests
 

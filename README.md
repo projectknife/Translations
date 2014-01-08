@@ -5,7 +5,7 @@ _The language package for Projectfork 4_
 * **Please note:** This Language Pack is for Projectfork 4.x only!*
 
 ## Quick start
-This file contains all the languages which are currently available for Projectfork 4.x for Joomla! 2.5 and 3.0.
+This file contains all the languages which are currently available for Projectfork 4.x for Joomla! 2.5 and 3.2.
 
 We recommend that you install the most recent language every time you have upgraded Projectfork (If you installed the "Language Pack", you could use the update function from Joomla!).
 
@@ -24,7 +24,7 @@ Additionally the "Extension Manager" will have a package called "Projectfork Lan
 
 
 ## Bug tracker
-Have an issue related tho the *Projectfork Language Pack*? [Please open a new issue](https://github.com/projectfork/Translations/issues). Before opening any issue, please search for existing issues and read the [Issue Guidelines](CONTRIBUTING.md).
+Have an issue related tho the *Projectfork Language Pack*? [Please open a new issue](https://github.com/projectfork/Translations/issues). Before opening any issue, please [search for existing issues](https://github.com/projectfork/Translations/search?ref=cmdform&type=Issues) and read the [Issue Guidelines](CONTRIBUTING.md).
 
 
 ## Contributing
@@ -33,10 +33,11 @@ Languages in this package may missing translations. To see the status of your la
 Anyone and everyone is welcome to contribute. Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md)
 
 #### Language Pack Installer
-Please submit all [pull requests](CONTRIBUTING.md) against this `master` branch.
+Please submit all [pull requests](CONTRIBUTING.md) against the `dev` branch.
 
 #### Help translate Projectfork
 If you want to help us to **translate your language**, please have a look at: [Getting Involved](https://github.com/projectfork/Translations/wiki/Getting-involved)
+Below you'll find the status of the most comprehensive languages
 
 <img border="0" src="https://www.transifex.com/projects/p/projectfork-languages/chart/image_png"/>
 

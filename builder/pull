@@ -35,86 +35,86 @@ sourcePath=$(realpath .)
 txClient="../../transifex-client/tx"
 version="$1"
 
-$txClient pull -l da_DK	# 100%
-$sourcePath/builder/buildManifest da-DK da_DK $version
-
-$txClient pull -l fr_FR	# 100%
-$sourcePath/builder/buildManifest fr-FR fr_FR $version
-
 $txClient pull -l de_DE	# 100%
 $sourcePath/builder/buildManifest de-DE de_DE $version
 
-$txClient pull -l hu_HU	# 100%
+$txClient pull -l da_DK	# 95%
+$sourcePath/builder/buildManifest da-DK da_DK $version
+
+$txClient pull -l fr_FR	# 95%
+$sourcePath/builder/buildManifest fr-FR fr_FR $version
+
+$txClient pull -l hu_HU	# 95%
 $sourcePath/builder/buildManifest hu-HU hu_HU $version
 
-$txClient pull -l pt_BR	# 100%
+$txClient pull -l pt_BR	# 95%
 $sourcePath/builder/buildManifest pt-BR pt_BR $version
 
-$txClient pull -l es_ES	# 100%
+$txClient pull -l es_ES	# 95%
 $sourcePath/builder/buildManifest es-ES es_ES $version
 
-$txClient pull -l tr_TR	# 100%
+$txClient pull -l tr_TR	# 95%
 $sourcePath/builder/buildManifest tr-TR tr_TR $version
 
-$txClient pull -l nb_NO	# 98%
+$txClient pull -l nb_NO	# 93%
 $sourcePath/builder/buildManifest nb-NO nb_NO $version
 
-$txClient pull -l pl_PL	# 98%
+$txClient pull -l pl_PL	# 93%
 $sourcePath/builder/buildManifest pl-PL pl_PL $version
 
-$txClient pull -l ca_ES	# 97%
-$sourcePath/builder/buildManifest ca-ES ca_ES $version
-
-$txClient pull -l zh_TW	# 97%
-$sourcePath/builder/buildManifest zh-TW zh_TW $version
-
-$txClient pull -l nl_NL	# 97%
-$sourcePath/builder/buildManifest nl-NL nl_NL $version
-
-$txClient pull -l it_IT	# 97%
-$sourcePath/builder/buildManifest it-IT it_IT $version
-
-$txClient pull -l ja_JP	# 97%
-$sourcePath/builder/buildManifest ja-JP ja_JP $version
-
-$txClient pull -l ro_RO	# 97%
-$sourcePath/builder/buildManifest ro-RO ro_RO $version
-
-$txClient pull -l th_TH	# 97%
+$txClient pull -l th_TH	# 93%
 $sourcePath/builder/buildManifest th-TH th_TH $version
 
-$txClient pull -l ru_RU	# 95%
+$txClient pull -l ca_ES	# 92%
+$sourcePath/builder/buildManifest ca-ES ca_ES $version
+
+$txClient pull -l zh_TW	# 92%
+$sourcePath/builder/buildManifest zh-TW zh_TW $version
+
+$txClient pull -l nl_NL	# 92%
+$sourcePath/builder/buildManifest nl-NL nl_NL $version
+
+$txClient pull -l it_IT	# 92%
+$sourcePath/builder/buildManifest it-IT it_IT $version
+
+$txClient pull -l ja_JP	# 92%
+$sourcePath/builder/buildManifest ja-JP ja_JP $version
+
+$txClient pull -l ro_RO	# 92%
+$sourcePath/builder/buildManifest ro-RO ro_RO $version
+
+$txClient pull -l ru_RU	# 91%
 $sourcePath/builder/buildManifest ru-RU ru_RU $version
 
-$txClient pull -l el_GR	# 94%
-$sourcePath/builder/buildManifest el-GR el_GR $version
-
-$txClient pull -l cs_CZ	# 93%
+$txClient pull -l cs_CZ	# 89%
 $sourcePath/builder/buildManifest cs-CZ cs_CZ $version
 
-$txClient pull -l pt_PT	# 93%
+$txClient pull -l el_GR	# 89%
+$sourcePath/builder/buildManifest el-GR el_GR $version
+
+$txClient pull -l pt_PT	# 88%
 $sourcePath/builder/buildManifest pt-PT pt_PT $version
 
-$txClient pull -l sv_SE	# 90%
+$txClient pull -l sv_SE	# 86%
 $sourcePath/builder/buildManifest sv-SE sv_SE $version
 
-$txClient pull -l sk_SK	# 70%
+$txClient pull -l sk_SK	# 66%
 $sourcePath/builder/buildManifest sk-SK sk_SK $version
 
-$txClient pull -l uk_UA	# 56%
+$txClient pull -l uk_UA	# 54%
 $sourcePath/builder/buildManifest uk-UA uk_UA $version
 
-$txClient pull -l nl_BE	# 41%
+$txClient pull -l nl_BE	# 39%
 $sourcePath/builder/buildManifest nl-BE nl_BE $version
 
-$txClient pull -l bg_BG	# 34%
-$sourcePath/builder/buildManifest bg-BG bg_BG $version
-
-$txClient pull -l fa_IR	# 34%
+$txClient pull -l fa_IR	# 33%
 $sourcePath/builder/buildManifest fa-IR fa_IR $version
 
-$txClient pull -l es_MX	# 31%
+$txClient pull -l bg_BG	# 32%
+$sourcePath/builder/buildManifest bg-BG bg_BG $version
+
+$txClient pull -l es_MX	# 29%
 $sourcePath/builder/buildManifest es-MX es_MX $version
 
-$txClient pull -l ar_AA	# 23%
+$txClient pull -l ar_AA	# 22%
 $sourcePath/builder/buildManifest ar-AA ar_AA $version

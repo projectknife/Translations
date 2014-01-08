@@ -95,37 +95,107 @@ source_lang = en_GB
 
 [projectfork-languages.admin-plg_content_pfcomments]
 file_filter = languages/<lang>/admin/<lang>.plg_content_pfcomments.ini
-source_file = source/plugins/plg_content_pfcomments/language/en-GB/en-GB.plg_content_pfcomments.ini
+source_file = ../Projectfork/source/plugins/plg_content_pfcomments/language/en-GB/en-GB.plg_content_pfcomments.ini
 source_lang = en_GB
 
 [projectfork-languages.admin-plg_content_pfcommentssys]
 file_filter = languages/<lang>/admin/<lang>.plg_content_pfcomments.sys.ini
-source_file = source/plugins/plg_content_pfcomments/language/en-GB/en-GB.plg_content_pfcomments.sys.ini
+source_file = ../Projectfork/source/plugins/plg_content_pfcomments/language/en-GB/en-GB.plg_content_pfcomments.sys.ini
+source_lang = en_GB
+
+[projectfork-languages.admin-plg_content_pfforum]
+file_filter = languages/<lang>/admin/<lang>.plg_content_pfforum.ini
+source_file = ../Projectfork/source/plugins/plg_content_pfforum/language/en-GB/en-GB.plg_content_pfforum.ini
+source_lang = en_GB
+
+[projectfork-languages.admin-plg_content_pfforumsys]
+file_filter = languages/<lang>/admin/<lang>.plg_content_pfforum.sys.ini
+source_file = ../Projectfork/source/plugins/plg_content_pfforum/language/en-GB/en-GB.plg_content_pfforum.sys.ini
+source_lang = en_GB
+
+[projectfork-languages.admin-plg_content_pfmilestones]
+file_filter = languages/<lang>/admin/<lang>.plg_content_pfmilestones.ini
+source_file = ../Projectfork/source/plugins/plg_content_pfmilestones/language/en-GB/en-GB.plg_content_pfmilestones.ini
+source_lang = en_GB
+
+[projectfork-languages.admin-plg_content_pfmilestonessys]
+file_filter = languages/<lang>/admin/<lang>.plg_content_pfmilestones.sys.ini
+source_file = ../Projectfork/source/plugins/plg_content_pfmilestones/language/en-GB/en-GB.plg_content_pfmilestones.sys.ini
 source_lang = en_GB
 
 [projectfork-languages.admin-plg_content_pfnotifications]
 file_filter = languages/<lang>/admin/<lang>.plg_content_pfnotifications.ini
-source_file = source/plugins/plg_content_pfnotifications/language/en-GB/en-GB.plg_content_pfnotifications.ini
+source_file = ../Projectfork/source/plugins/plg_content_pfnotifications/language/en-GB/en-GB.plg_content_pfnotifications.ini
 source_lang = en_GB
 
 [projectfork-languages.admin-plg_content_pfnotificationssys]
 file_filter = languages/<lang>/admin/<lang>.plg_content_pfnotifications.sys.ini
-source_file = source/plugins/plg_content_pfnotifications/language/en-GB/en-GB.plg_content_pfnotifications.sys.ini
+source_file = ../Projectfork/source/plugins/plg_content_pfnotifications/language/en-GB/en-GB.plg_content_pfnotifications.sys.ini
 source_lang = en_GB
 
-[projectfork-languages.site-tpl_goggles]
-file_filter = languages/<lang>/site/<lang>.tpl_goggles.ini
-source_file = source/templates/goggles/language/en-GB/en-GB.tpl_goggles.ini
+[projectfork-languages.admin-plg_content_pfprojects]
+file_filter = languages/<lang>/admin/<lang>.plg_content_pfprojects.ini
+source_file = ../Projectfork/source/plugins/plg_content_pfprojects/language/en-GB/en-GB.plg_content_pfprojects.ini
 source_lang = en_GB
 
-[projectfork-languages.site-tpl_gogglessys]
-file_filter = languages/<lang>/site/<lang>.tpl_goggles.sys.ini
-source_file = source/templates/goggles/language/en-GB/en-GB.tpl_goggles.sys.ini
+[projectfork-languages.admin-plg_content_pfprojectssys]
+file_filter = languages/<lang>/admin/<lang>.plg_content_pfprojects.sys.ini
+source_file = ../Projectfork/source/plugins/plg_content_pfprojects/language/en-GB/en-GB.plg_content_pfprojects.sys.ini
+source_lang = en_GB
+
+[projectfork-languages.admin-plg_content_pfrepo]
+file_filter = languages/<lang>/admin/<lang>.plg_content_pfrepo.ini
+source_file = ../Projectfork/source/plugins/plg_content_pfrepo/language/en-GB/en-GB.plg_content_pfrepo.ini
+source_lang = en_GB
+
+[projectfork-languages.admin-plg_content_pfreposys]
+file_filter = languages/<lang>/admin/<lang>.plg_content_pfrepo.sys.ini
+source_file = ../Projectfork/source/plugins/plg_content_pfrepo/language/en-GB/en-GB.plg_content_pfrepo.sys.ini
+source_lang = en_GB
+
+[projectfork-languages.admin-plg_content_pftasks]
+file_filter = languages/<lang>/admin/<lang>.plg_content_pftasks.ini
+source_file = ../Projectfork/source/plugins/plg_content_pftasks/language/en-GB/en-GB.plg_content_pftasks.ini
+source_lang = en_GB
+
+[projectfork-languages.admin-plg_content_pftaskssys]
+file_filter = languages/<lang>/admin/<lang>.plg_content_pftasks.sys.ini
+source_file = ../Projectfork/source/plugins/plg_content_pftasks/language/en-GB/en-GB.plg_content_pftasks.sys.ini
+source_lang = en_GB
+
+[projectfork-languages.admin-plg_content_pftime]
+file_filter = languages/<lang>/admin/<lang>.plg_content_pftime.ini
+source_file = ../Projectfork/source/plugins/plg_content_pftime/language/en-GB/en-GB.plg_content_pftime.ini
+source_lang = en_GB
+
+[projectfork-languages.admin-plg_content_pftimesys]
+file_filter = languages/<lang>/admin/<lang>.plg_content_pftime.sys.ini
+source_file = ../Projectfork/source/plugins/plg_content_pftime/language/en-GB/en-GB.plg_content_pftime.sys.ini
+source_lang = en_GB
+
+[projectfork-languages.admin-plg_system_pfdemo]
+file_filter = languages/<lang>/admin/<lang>.plg_system_pfdemo.ini
+source_file = ../Projectfork/source/plugins/plg_system_pfdemo/language/en-GB/en-GB.plg_system_pfdemo.ini
+source_lang = en_GB
+
+[projectfork-languages.admin-plg_system_pfdemosys]
+file_filter = languages/<lang>/admin/<lang>.plg_system_pfdemo.sys.ini
+source_file = ../Projectfork/source/plugins/plg_system_pfdemo/language/en-GB/en-GB.plg_system_pfdemo.sys.ini
 source_lang = en_GB
 
 [projectfork-languages.site-com_projectfork]
 file_filter = languages/<lang>/site/<lang>.com_projectfork.ini
 source_file = ../Projectfork/source/components/com_projectfork/site/language/en-GB/en-GB.com_projectfork.ini
+source_lang = en_GB
+
+[projectfork-languages.site-tpl_goggles]
+file_filter = languages/<lang>/site/<lang>.tpl_goggles.ini
+source_file = ../Projectfork/source/templates/goggles/language/en-GB/en-GB.tpl_goggles.ini
+source_lang = en_GB
+
+[projectfork-languages.site-tpl_gogglessys]
+file_filter = languages/<lang>/site/<lang>.tpl_goggles.sys.ini
+source_file = ../Projectfork/source/templates/goggles/language/en-GB/en-GB.tpl_goggles.sys.ini
 source_lang = en_GB
 
 [projectfork-languages.site-mod_pf_dash_buttons]
@@ -146,4 +216,14 @@ source_lang = en_GB
 [projectfork-languages.site-mod_pf_taskssys]
 file_filter = languages/<lang>/site/<lang>.mod_pf_tasks.sys.ini
 source_file = ../Projectfork/source/modules/mod_pf_tasks/language/en-GB/en-GB.mod_pf_tasks.sys.ini
+source_lang = en_GB
+
+[projectfork-languages.site-mod_pf_time]
+file_filter = languages/<lang>/site/<lang>.mod_pf_time.ini
+source_file = ../Projectfork/source/modules/mod_pf_time/language/en-GB/en-GB.mod_pf_time.ini
+source_lang = en_GB
+
+[projectfork-languages.site-mod_pf_timesys]
+file_filter = languages/<lang>/site/<lang>.mod_pf_time.sys.ini
+source_file = ../Projectfork/source/modules/mod_pf_time/language/en-GB/en-GB.mod_pf_time.sys.ini
 source_lang = en_GB

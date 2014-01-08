@@ -2,12 +2,12 @@
 <extension type="file" version="2.5" method="upgrade">
 	<name>Projectfork Language - nl-BE</name>
 	<author>Projectfork Translation Team</author>
-	<creationDate>2014-01-07</creationDate>
-	<copyright>(C) 2012 - 2013 by the Projectfork Translation Team. All rights reserved.</copyright>
+	<creationDate>2014-01-08</creationDate>
+	<copyright>(C) 2012 - 2014 by the Projectfork Translation Team. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<authorEmail>support@projectfork.net</authorEmail>
 	<authorUrl>www.projectfork.net</authorUrl>
-	<version>4.2.0</version>
+	<version>4.2.0.0</version>
 	<description>
 		<![CDATA[
 			The nl-BE language pack for Projectfork 4, a Project Management extension for Joomla!

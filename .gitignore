@@ -28,8 +28,6 @@ push.bat
 #################
 # X-Build-Stuff
 #################
-push
-push.sh
 
 buildUserStatistics
 buildUserStatistics.sh

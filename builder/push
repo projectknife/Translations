@@ -1,0 +1,71 @@
+#!/bin/bash
+
+# Copyright (C) 1997 - 2014 devXive - research and development
+#
+# The scriptfile is licensed under the Apache License, Version 2.0 (the "License");
+# You may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+# The content of static vars and/or static echo output is licensed under the
+# devXive Proprietary Use License (http://devxive.com/legal/license)
+#
+# Author:  devXive, Lahmizzar Muinela
+# Email:   support@devxive.com
+# Twitter: @devxive
+# Website: http://devxive.com
+#
+#
+# Description:
+# Simple script to build an appropriate language manifest
+#
+# How to use
+# tx push -t[push the translation to the server] etc... see 
+#
+# > /SVN/transifex-client/tx push -t -l sk_SK
+
+
+# -l : Specify which translations you want to push (defaults to all)
+# -r : Specify the resource for which you want to push the translations (defaults to all)
+# -f: Push source files without checking modification times
+# --skip: Don’t stop on errors. Useful when pushing many files concurrently.
+# -s: Push the source file to the server
+# -t: Push the translation files to the server
+# --no-interactive: Don’t require user input when forcing a push
+# -h: Shows the help screen for the command
+#
+#
+# /SVN/transifex-client/tx push -t -l sk_SK # to push the slovak translation to the server
+#
+# This script is a standalone script and need a specific file structure
+#
+#
+# TODO: Build this script
+
+if [[ "$1" == "" ]]
+    then
+    	echo 'Please determine a source you wish to push!'
+    	echo 'eg:'
+    	echo '"./push source" to pushing the source files (as set in tx config - normally "en_GB") to transifex.'
+    	echo '"./push it_IT" to pushing the Italian translation files (as set in tx config) to transifex.'
+    	echo 'Please note that you have to use the TX language string (with an underscore)'
+	exit 1 
+fi
+
+txClient="../../../transifex-client/tx"
+
+if [[ "$1" == "source" ]]
+    then
+		$txClient push -s
+    exit 1 
+fi
+
+# If source is not pushed, then use the appropriate language
+$txClient push -t $1

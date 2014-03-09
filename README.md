@@ -1,4 +1,4 @@
-# [Projectfork](https://projectfork.net) Translations
+# [Projectfork](https://www.transifex.com/organization/projectfork) Translations
 
 _The language package for Projectfork 4_
 
@@ -13,7 +13,7 @@ We recommend that you install the most recent language every time you have upgra
 ### Projectfork Language Pack - **[download the latest release](https://github.com/projectfork/Translations/tree/master/archive/zips)**
 
 
-#### Installing languages in Joomla! 2.5+ and 3.0+
+#### Installing languages in Joomla! 2.5+ and 3.2+
 Just install this package by using Joomla installer. If you cannot install the package because of 2MB upload limit, you can either install the package from URL or make the file smaller by removing a few languages you do not need.
 
 Installer will detect which languages have been installed into your system. It will install or update only existing languages, so if you add new languages after installing this package, you will need to install the "Language Pack" again.
@@ -24,22 +24,44 @@ Additionally the "Extension Manager" will have a package called "Projectfork Lan
 
 
 ## Bug tracker
-Have an issue related tho the *Projectfork Language Pack*? [Please open a new issue](https://github.com/projectfork/Translations/issues). Before opening any issue, please [search for existing issues](https://github.com/projectfork/Translations/search?ref=cmdform&type=Issues) and read the [Issue Guidelines](CONTRIBUTING.md).
+Have an issue related tho the *Projectfork Language Pack*? [Please open a new issue](https://github.com/projectfork/Translations/issues). Before opening any issue, please [search for existing issues](https://github.com/projectfork/Translations/search?ref=cmdform&type=Issues) and read the [Issue Guidelines](CONTRIBUTING.md#bug-reports).
 
 
 ## Contributing
-Languages in this package may missing translations. To see the status of your language, please visit our [Transifex status page](https://www.transifex.com/projects/p/projectfork-languages)
+Languages in this package may missing translations. To see the status of your language, please visit our [Transifex status page](https://www.transifex.com/organization/projectfork)
 
-Anyone and everyone is welcome to contribute. Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md)
+Anyone and everyone is welcome to contribute. Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md#pull-requests)
 
-#### Language Pack Installer
-Please submit all [pull requests](CONTRIBUTING.md) against the `dev` branch.
+### Language Pack Installer
+Please submit all [pull requests](CONTRIBUTING.md#pull-requests) against the `dev` branch.
 
-#### Help translate Projectfork
+### Help translate Projectfork
 If you want to help us to **translate your language**, please have a look at: [Getting Involved](https://github.com/projectfork/Translations/wiki/Getting-involved)
+
 Below you'll find the status of the most comprehensive languages
 
+
+#### Projectfork
 <img border="0" src="https://www.transifex.com/projects/p/projectfork-languages/chart/image_png"/>
+
+
+#### Projectfork - Pro Extensions
+<img border="0" src="https://www.transifex.com/projects/p/projectfork/chart/image_png"/>
+
+**Contains:** _Designs, Gantt Chart, Calendar_
+
+
+#### User Activity
+<img border="0" src="https://www.transifex.com/projects/p/useractivity/chart/image_png"/>
+
+
+#### PF Tools - Migrator
+<img border="0" src="https://www.transifex.com/projects/p/pf-migrator/chart/image_png"/>
+
+
+#### PF Tools - Generator
+<img border="0" src="https://www.transifex.com/projects/p/pf-generator/chart/image_png"/>
+
 
 
 ## Community

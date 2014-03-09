@@ -78,7 +78,7 @@ Please note that all translations are created and maintained by community member
 That you request a new or an update of existing language does not mean it is automatically included in a future versions.
 You can help to translate Projectfork
 
-### Pull requests
+## Pull requests
 
 **Please ask first** before embarking on any significant pull request (e.g.
 implementing new language, refactoring code), otherwise you risk spending a lot

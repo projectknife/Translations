@@ -3,7 +3,7 @@
  * @package Projectfork
  * @subpackage Projectfork.Translations.Installer
  *
- * @copyright (C) 2012 - 2013 Projectfork Translation Team. All rights reserved.
+ * @copyright (C) 2012 - 2014 Projectfork Translation Team. All rights reserved.
  * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
  * @link http://www.projectfork.net
  **/

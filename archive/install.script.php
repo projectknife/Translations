@@ -12,7 +12,37 @@ defined( '_JEXEC' ) or die();
 class pkg_projectfork_languagesInstallerScript {
 	
 	protected $name = 'lang_pf4';
-	protected $uncomplete_lang = array("da-DK", "fr-FR", "hu-HU", "pt-BR", "es-ES", "tr-TR", "nb-NO", "pl-PL", "ca-ES", "zh-TW", "nl-NL", "it-IT", "ja-JP", "ro-RO", "th-TH", "ru-RU", "el-GR", "cs-CZ", "pt-PT", "sv-SE", "sk-SK", "uk-UA", "nl-BE", "bg-BG", "fa-IR", "es-MX", "ar-AA");
+	protected $uncomplete_lang = array(
+		// "ar-AA", // Last Update: 2014-02-16 - 100%
+		// "nl-NL", // Last Update: 2014-01-25 - 100%
+		// "fr-FR", // Last Update: 2014-01-18 - 100%
+		// "de-DE", // Last Update: 2014-01-15 - 100%
+		// "hu-HU", // Last Update: 2014-02-13 - 100%
+		// "pt-BR", // Last Update: 2014-03-07 - 100%
+		// "ru-RU", // Last Update: 2014-02-24 - 100%
+		// "tr-TR", // Last Update: 2014-02-24 - 100%
+		"eu-ES", // Last Update: 2014-01-28 - 99%
+		"cs-CZ", // Last Update: 2014-02-05 - 97%
+		"da-DK", // Last Update: 2014-01-14 - 95%
+		"es-ES", // Last Update: 2014-01-14 - 95%
+		"nb-NO", // Last Update: 2014-01-14 - 93%
+		"pl-PL", // Last Update: 2014-01-14 - 93%
+		"th-TH", // Last Update: 2014-01-14 - 93%
+		"ca-ES", // Last Update: 2014-01-14 - 92%
+		"zh-TW", // Last Update: 2014-01-14 - 92%
+		"it-IT", // Last Update: 2014-01-14 - 92%
+		"ja-JP", // Last Update: 2014-01-14 - 92%
+		"ro-RO", // Last Update: 2014-01-14 - 92%
+		"pt-PT", // Last Update: 2014-01-14 - 90%
+		"el-GR", // Last Update: 2014-01-14 - 89%
+		"sv-SE", // Last Update: 2014-01-14 - 87%
+		"sk-SK", // Last Update: 2014-01-14 - 66%
+		"uk-UA", // Last Update: 2014-01-14 - 55%
+		"nl-BE", // Last Update: 2014-01-14 - 39%
+		"bg-BG", // Last Update: 2014-01-14 - 33%
+		"fa-IR", // Last Update: 2014-01-23 - 33%
+		"es-MX"  // Last Update: 2014-01-14 - 29%
+	);
 	
 	public function uninstall($parent) {
 		$languages = JFactory::getLanguage()->getKnownLanguages();

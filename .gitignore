@@ -16,6 +16,7 @@ $RECYCLE.BIN/
 tx.exe
 update.bat
 push.bat
+pull.bat
 
 #############
 ## Mac detritus
